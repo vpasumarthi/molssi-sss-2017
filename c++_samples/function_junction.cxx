@@ -33,7 +33,7 @@ int main()
 
     // but this works because float can always be converted
     // exactly to a double
-    print_variable("mid-accuracy pi", 3.1416); // f for float
+    print_variable("mid-accuracy pi", 3.1416f); // f for float
 
     return 0;
 }
